@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- CodeAlpha Frontend Development Internship | Task 3: Portfolio Website -->
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pakeeza Arshad | Frontend Developer | CodeAlpha Task 3</title><meta name="description" content="Portfolio of Pakeeza Arshad, Frontend Developer. HTML, CSS, JavaScript, React and Python."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#home">Pakeeza Arshad</a>
+  <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  <nav id="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap">
+  <div>
+    <span class="pill">CodeAlpha Frontend Intern &middot; Task 3</span>
+    <h1>Hi, I'm <em>Pakeeza Arshad</em>.</h1>
+    <p class="role">Frontend Developer</p>
+    <p class="lead">I build clean, responsive and easy-to-use websites with HTML, CSS, JavaScript and React.</p>
+    <div class="cta"><a class="btn" href="#projects">View projects</a><a class="btn ghost" href="Pakeeza_Arshad_Resume.pdf" download="Pakeeza_Arshad_Resume.pdf">Download resume</a><a class="btn ghost" href="#contact">Contact me</a></div>
+  </div>
+  <div class="avatar" aria-hidden="true">PA</div>
+</div></section>
+
+<section id="about"><div class="wrap rv">
+  <h2>About me</h2>
+  <p class="big">I'm a frontend developer who enjoys turning ideas into clean, responsive and easy-to-use websites. I work with HTML, CSS, JavaScript and React, and I also use Python. During my CodeAlpha Frontend Development Internship I built an image gallery, a calculator and this portfolio.</p>
+  <div class="stats"><div><b>3</b><span>Projects built</span></div><div><b>5</b><span>Core skills</span></div><div><b>1</b><span>Internship</span></div></div>
+</div></section>
+
+<section id="skills" class="alt"><div class="wrap rv">
+  <h2>Skills</h2>
+  <div class="skillgrid">
+    <div class="sk"><h3>Frontend</h3><p class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></p></div>
+    <div class="sk"><h3>Programming</h3><p class="chips"><span>Python</span></p></div>
+    <div class="sk"><h3>Tools and Practice</h3><p class="chips"><span>Git &amp; GitHub</span><span>Responsive design</span><span>VS Code</span></p></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap rv">
+  <h2>Projects</h2>
+  <div class="cards" id="cards"></div>
+  <p class="links"><a href="https://github.com/pakeezaa58-tech" target="_blank" rel="noopener">See all my work on GitHub &rarr;</a></p>
+</div></section>
+
+<section id="resume" class="alt"><div class="wrap rv">
+  <h2>Resume</h2>
+  <article class="resume">
+    <div class="r-head"><h3>Pakeeza Arshad</h3><p class="r-role">Frontend Developer</p><p>BS Computer Science, University of Gujrat</p></div>
+    <aside class="r-side">
+      <h4>Contact</h4>
+      <ul class="plain">
+        <li><b>Email</b><a href="mailto:pakeezaa58@gmail.com">pakeezaa58@gmail.com</a></li>
+        <li><b>LinkedIn</b><a href="https://www.linkedin.com/in/pakeeza-arshad-69aa6b447/" target="_blank" rel="noopener">pakeeza-arshad</a></li>
+        <li><b>GitHub</b><a href="https://github.com/pakeezaa58-tech" target="_blank" rel="noopener">pakeezaa58-tech</a></li>
+      </ul>
+      <h4>Skills</h4>
+      <ul class="plain"><li><b>Frontend</b>HTML, CSS, JavaScript, React</li><li><b>Programming</b>Python</li><li><b>Tools</b>Git &amp; GitHub, Responsive design</li></ul>
+      <h4>Education</h4>
+      <ul class="plain"><li><b>BS Computer Science</b>University of Gujrat</li></ul>
+    </aside>
+    <div class="r-main">
+      <h4>Summary</h4>
+      <p>Frontend developer skilled in HTML, CSS, JavaScript and React, with a focus on clean, responsive and user-friendly interfaces. Also works with Python.</p>
+      <h4>Experience</h4>
+      <div class="job"><b>Frontend Development Intern</b><span>CodeAlpha &middot; 2026</span></div>
+      <ul><li>Built a responsive Image Gallery with filters, hover effects and a lightbox viewer.</li><li>Built a Calculator with all four operations and keyboard support.</li><li>Designed a responsive portfolio website with a downloadable resume.</li></ul>
+      <h4>Projects</h4>
+      <p><b>Image Gallery</b> &middot; <b>Calculator</b> &middot; <b>Portfolio Website</b> &middot;  <b>AI accessibility suite in Python</b> (HTML, CSS, JavaScript)</p>
+    </div>
+    <div class="r-foot"><a class="btn" href="Pakeeza_Arshad_Resume.pdf" download="Pakeeza_Arshad_Resume.pdf">Download resume (PDF)</a></div>
+  </article>
+</div></section>
+
+<section id="contact"><div class="wrap rv">
+  <h2>Contact</h2>
+  <form id="form">
+    <input id="name" placeholder="Your name" required>
+    <input id="email" type="email" placeholder="Your email" required>
+    <textarea id="msg" rows="4" placeholder="Your message" required></textarea>
+    <button class="btn" type="submit">Send message</button>
+  </form>
+  <p class="links"> &middot; <a href="mailto:pakeezaa58@gmail.com">pakeezaa58@gmail.com</a> &middot; <a href="https://github.com/pakeezaa58-tech" target="_blank" rel="noopener">GitHub</a> &middot; <a href="https://www.linkedin.com/in/pakeeza-arshad-69aa6b447" target="_blank" rel="noopener">LinkedIn</a></p>
+</div></section>
+</main>
+<footer><div class="wrap">&copy; <span id="year"></span> Pakeeza Arshad. Built for the CodeAlpha Frontend Development Internship, Task 3.</div></footer>
+<script src="script.js"></script></body></html>
